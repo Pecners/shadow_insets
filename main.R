@@ -64,5 +64,5 @@ s <- image_shadow_mask(img, geometry = "30x30-20+10") |>
 out <- image_mosaic(c(s, img_labs)) |> 
   image_background("white")
 
-image_write(out, "cali_out.png")
+image_write(out, "images/cali_out.png")
 
